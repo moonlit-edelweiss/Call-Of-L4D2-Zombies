@@ -1,1 +1,0 @@
-printl("---- MAP EVENTS INIT ----");
