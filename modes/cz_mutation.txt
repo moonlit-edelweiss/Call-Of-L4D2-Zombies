@@ -1,0 +1,20 @@
+"cz_mutation"
+{
+    "base"  "coop"
+
+    "maxplayers" "4"
+    "hasdifficulty" "1"
+
+    "DisplayTitle" "Call Of Duty: Zombies"
+    "Description" "You thought they were dead. You thought wrong."
+    "Image" "maps/any"
+    "Author" "moss"
+
+    convar
+    {
+        z_health 16
+        z_speed 450
+        z_gun_swing_coop_min_penalty 1
+        z_gun_swing_coop_max_penalty 1
+    }
+}

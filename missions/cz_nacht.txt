@@ -1,0 +1,49 @@
+ "mission"
+ {
+ 	"Name"		"NachtDerUntoten"	//For matchmaking system. Only letters A-Z and Numbers 0-9 allowed.
+  	"Version"	"1"		//For matchmaking system. Only Numbers 0-9 allowed.
+ 
+ 	// Main Menu representation of Campaign.
+ 	"DisplayTitle"	"Nacht Der Untoten"
+ 	"Description"	"You drove them deep into the heart of the Reich. You thought they were dead. You were wrong."
+ 	"Author"	"moss"
+ 
+ 
+ 	// VMT shown behind the end credits when your campaign ends. MUST have "vgui/" at the front.
+ 	"OuttroImage"	"vgui/outroTitle_DeadCenter"
+ 
+ 	// Which set of survivors should be used. 1 for L4D1, 2 for L4D2
+ 	"survivor_set"		"2"	
+ 	
+ 	// Other options. 0 = Off, 1 = on. 
+ 	"allow_cola"		"0"	// Allows the Dead Center cola bottles to spawn.
+ 	"no_wpn_restore"	"0"	// On player wipe, don't keep any weapons.
+ 	"no_female_boomers"	"0"	// Disables spawning of the Boomette.
+ 	"no_cs_weapons"		"0"	// Disables spawning of the German version CS weapons. AS of the "The Last Stand" Css weapons are available for every version of the game. It is unsure if this string is still in use.
+ 	"allow_diesel"		"0"	// Allows the Hard Rain Diesel cans to be used.
+ 
+ 	// Loading screen poster settings.
+ 	"poster"
+ 	{
+ 		// Loadingscreen. VMT must be placed in "materials/vgui/"
+ 		"posterImage"		        "LoadingScreen_Nacht" // Square loadingscreen using 1024x1024,
+ 		//"posterImage_widescreen"	"LoadingScreen_MyCampaign_widescreen" // Rectangular loadingscreen using 1024x2048
+ 		// If no dedicated textures were available, a square loadingscreen will be stretched on 16:9, while a rectangular texture will be squeezed on 4:3.
+ 		"fullscreen"			"1"  		
+ 		"l4d2_names"			"1"		
+ 		"character_order"		"coach;mechanic;gambler;producer" 
+ 	}  
+ 	"modes"
+ 	{
+ 		"coop" //Co-Op Game mode. 
+ 		{
+ 			"1"
+ 			{
+ 				"Map"		"cz_nacht" // BSP file name, without extension
+ 				"DisplayName"	"Nacht Der Untoten" //Name seen on menu
+ 				"Image"		"maps/cz_nacht" //Thumbnail VMT file, must be saved in "materials\vgui\maps"
+ 			}	
+ 		}
+ 	}
+ }
+
